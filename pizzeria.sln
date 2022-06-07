@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32505.173
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "core", "core", "{04051553-2038-4F02-8501-74A89688226C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Adaptors", "Adaptors", "{9C5AACA6-448A-4C47-9B74-23E1E91F2A06}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ports", "ports", "{2BE32D1C-7E13-4C92-9A47-89869E3935E4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "pizzeria.core.Domain", "pizzeria.core.Domain\pizzeria.core.Domain.csproj", "{EF656FAB-D1C9-4EFF-9988-148C72480BC3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "pizzeria.core.Application", "pizzeria.core.Application\pizzeria.core.Application.csproj", "{53BA446A-89C2-420F-93FC-510A2E924B6C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "pizzeria.core.Infraestructura", "pizzeria.core.Infraestructura\pizzeria.core.Infraestructura.csproj", "{6942BFBB-1D1B-4F44-87AD-3274B0FC0F9F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "pizzeria.Adaptador.SQLServeDataAccess", "pizzeria.Adaptador.SQLServeDataAccess\pizzeria.Adaptador.SQLServeDataAccess.csproj", "{E0E23015-BB27-4D00-AD24-EA243EF2F64E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EF656FAB-D1C9-4EFF-9988-148C72480BC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF656FAB-D1C9-4EFF-9988-148C72480BC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF656FAB-D1C9-4EFF-9988-148C72480BC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF656FAB-D1C9-4EFF-9988-148C72480BC3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53BA446A-89C2-420F-93FC-510A2E924B6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53BA446A-89C2-420F-93FC-510A2E924B6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53BA446A-89C2-420F-93FC-510A2E924B6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53BA446A-89C2-420F-93FC-510A2E924B6C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6942BFBB-1D1B-4F44-87AD-3274B0FC0F9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6942BFBB-1D1B-4F44-87AD-3274B0FC0F9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6942BFBB-1D1B-4F44-87AD-3274B0FC0F9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6942BFBB-1D1B-4F44-87AD-3274B0FC0F9F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E0E23015-BB27-4D00-AD24-EA243EF2F64E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0E23015-BB27-4D00-AD24-EA243EF2F64E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0E23015-BB27-4D00-AD24-EA243EF2F64E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0E23015-BB27-4D00-AD24-EA243EF2F64E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9C5AACA6-448A-4C47-9B74-23E1E91F2A06} = {04051553-2038-4F02-8501-74A89688226C}
+		{2BE32D1C-7E13-4C92-9A47-89869E3935E4} = {9C5AACA6-448A-4C47-9B74-23E1E91F2A06}
+		{EF656FAB-D1C9-4EFF-9988-148C72480BC3} = {04051553-2038-4F02-8501-74A89688226C}
+		{53BA446A-89C2-420F-93FC-510A2E924B6C} = {04051553-2038-4F02-8501-74A89688226C}
+		{6942BFBB-1D1B-4F44-87AD-3274B0FC0F9F} = {04051553-2038-4F02-8501-74A89688226C}
+		{E0E23015-BB27-4D00-AD24-EA243EF2F64E} = {9C5AACA6-448A-4C47-9B74-23E1E91F2A06}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {748C4717-29D9-4E5C-801F-9CA1B2512F5E}
+	EndGlobalSection
+EndGlobal
